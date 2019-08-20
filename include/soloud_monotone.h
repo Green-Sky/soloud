@@ -111,6 +111,6 @@ namespace SoLoud
 	public:
 		void clear();
 	};
-};
+}
 
 #endif

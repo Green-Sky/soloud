@@ -31,7 +31,7 @@ freely, subject to the following restrictions:
 
 namespace SoLoud
 {
-	result portaudio_init(SoLoud::Soloud *aSoloud, unsigned int aFlags, unsigned int aSamplerate, unsigned int aBuffer)
+	result portaudio_init(SoLoud::Soloud * /*aSoloud*/, unsigned int /*aFlags*/, unsigned int /*aSamplerate*/, unsigned int /*aBuffer*/)
 	{
 		return NOT_IMPLEMENTED;
 	}
@@ -119,5 +119,6 @@ namespace SoLoud
 		return 0;
 	}
 	
-};
+}
 #endif
+

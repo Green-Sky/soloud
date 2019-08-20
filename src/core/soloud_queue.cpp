@@ -174,4 +174,5 @@ namespace SoLoud
 		mBaseSamplerate = aSamplerate;
 	    return SO_NO_ERROR;
 	}
-};
+}
+

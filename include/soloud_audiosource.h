@@ -310,6 +310,6 @@ namespace SoLoud
 		// Stop all instances of this audio source
 		void stop();
 	};
-};
+}
 
 #endif

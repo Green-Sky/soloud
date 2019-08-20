@@ -655,4 +655,5 @@ namespace SoLoud
 			return 0;
 		return mSampleCount / mBaseSamplerate;
 	}
-};
+}
+

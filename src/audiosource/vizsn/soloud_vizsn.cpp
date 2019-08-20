@@ -530,4 +530,5 @@ namespace SoLoud
 		mText[len + 2] = 0;
 	}
 
-};
+}
+

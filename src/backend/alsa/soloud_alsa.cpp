@@ -29,11 +29,11 @@ freely, subject to the following restrictions:
 
 namespace SoLoud
 {
-    result alsa_init(Soloud *aSoloud, unsigned int aFlags, unsigned int aSamplerate, unsigned int aBuffer)
+    result alsa_init(Soloud * /*aSoloud*/, unsigned int /*aFlags*/, unsigned int /*aSamplerate*/, unsigned int /*aBuffer*/)
 	{
 		return NOT_IMPLEMENTED;
 	}
-};
+}
 
 #else
 

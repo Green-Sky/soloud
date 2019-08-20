@@ -57,7 +57,7 @@ inline int SIDsound::waveNoise(SIDVoice &v)
 		(bit(shiftReg, 7) << 6) |
 		(bit(shiftReg, 4) << 5) |
 		(bit(shiftReg, 2) << 4);
-};
+}
 
 void SIDsound::setModel(unsigned int model) 
 {

@@ -148,4 +148,5 @@ namespace SoLoud
 		return new OpenmptInstance(this);
 	}
 
-};
+}
+

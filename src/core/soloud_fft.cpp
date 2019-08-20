@@ -2470,5 +2470,5 @@ namespace SoLoud
 			for (i = 0; i < aBufferLength; i++)
 				aBuffer[i] *= 1.0f / (aBufferLength / 2);
 		}
-    };
-};
+    }
+}

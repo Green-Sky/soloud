@@ -86,6 +86,6 @@ namespace SoLoud
 		// Internal: find the bus' channel
 		void findBusHandle();
 	};
-};
+}
 
 #endif

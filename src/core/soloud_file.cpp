@@ -291,7 +291,7 @@ extern "C"
 		return 0;
 	}
 
-	Soloud_Filehack * Soloud_Filehack_fopen(const char *aFilename, char *aMode)
+	Soloud_Filehack * Soloud_Filehack_fopen(const char *aFilename, char * /*aMode*/)
 	{
 		SoLoud::DiskFile *df = new SoLoud::DiskFile();
 		int res = df->open(aFilename);
@@ -303,3 +303,4 @@ extern "C"
 		return (Soloud_Filehack*)df;
 	}
 }
+

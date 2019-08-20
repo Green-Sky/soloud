@@ -104,3 +104,4 @@ namespace SoLoud
 		return new EchoFilterInstance(this);
 	}
 }
+

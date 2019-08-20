@@ -264,7 +264,7 @@ klatt_frame::klatt_frame() :
 	mParallelNasalPoleAmpdb(0), mBypassFricationAmpdb(0),       mPalallelVoicingAmpdb(0),   
 	mOverallGaindb(62)  
 {
-};
+}
 
 
 klatt::klatt() : 

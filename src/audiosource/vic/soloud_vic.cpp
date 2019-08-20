@@ -165,4 +165,5 @@ namespace SoLoud
 		return new VicInstance(this);
 	}
 
-};
+}
+

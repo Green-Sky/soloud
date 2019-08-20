@@ -315,4 +315,4 @@ namespace SoLoud
 		}
 		return vol;
 	}
-};
+}

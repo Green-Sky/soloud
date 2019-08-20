@@ -91,4 +91,4 @@ namespace SoLoud
 		mCurrent = (float)(mFrom + mDelta * ((aCurrentTime - mStartTime) / mTime));
 		return mCurrent;
 	}
-};
+}

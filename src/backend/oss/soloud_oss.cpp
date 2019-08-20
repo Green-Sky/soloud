@@ -29,11 +29,11 @@ freely, subject to the following restrictions:
 
 namespace SoLoud
 {
-    result oss_init(Soloud *aSoloud, unsigned int aFlags, unsigned int aSamplerate, unsigned int aBuffer)
+    result oss_init(Soloud * /*aSoloud*/, unsigned int /*aFlags*/, unsigned int /*aSamplerate*/, unsigned int /*aBuffer*/)
 	{
 		return NOT_IMPLEMENTED;
 	}
-};
+}
 
 #else
 #include <fcntl.h>
@@ -175,5 +175,6 @@ namespace SoLoud
         aSoloud->mBackendString = "OSS";
         return 0;
     }
-};
+}
 #endif
+

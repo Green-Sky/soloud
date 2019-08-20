@@ -59,6 +59,6 @@ namespace SoLoud
 		virtual FilterInstance *createInstance() = 0;
 		virtual ~Filter();
 	};
-};
+}
 
 #endif

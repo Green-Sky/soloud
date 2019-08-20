@@ -628,4 +628,4 @@ namespace SoLoud
 			m3dData[ch].m3dDopplerFactor = aDopplerFactor;
 		FOR_ALL_VOICES_POST_3D
 	}
-};
+}

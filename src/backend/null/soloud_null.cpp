@@ -28,7 +28,7 @@ freely, subject to the following restrictions:
 
 namespace SoLoud
 {
-    result null_init(Soloud *aSoloud, unsigned int aFlags, unsigned int aSamplerate, unsigned int aBuffer)
+    result null_init(Soloud * /*aSoloud*/, unsigned int /*aFlags*/, unsigned int /*aSamplerate*/, unsigned int /*aBuffer*/)
 	{
 		return NOT_IMPLEMENTED;
 	}
@@ -38,7 +38,7 @@ namespace SoLoud
 
 namespace SoLoud
 {
-    static void nullCleanup(Soloud *aSoloud)
+    static void nullCleanup(Soloud * /*aSoloud*/)
     {
     }
 
@@ -53,5 +53,6 @@ namespace SoLoud
         aSoloud->mBackendString = "null driver";
         return SO_NO_ERROR;
     }
-};
+}
 #endif
+

@@ -859,8 +859,8 @@ namespace SoLoud
 				  float *aDst, 
 				  int aSrcOffset,
 				  int aDstSampleCount,
-				  float aSrcSamplerate, 
-				  float aDstSamplerate,
+				  float /*aSrcSamplerate*/, 
+				  float /*aDstSamplerate*/,
 				  int aStepFixed)
 	{
 #if 0
@@ -1800,7 +1800,7 @@ namespace SoLoud
 		{
 			if (mVoice[i] && !(mVoice[i]->mFlags & AudioSourceInstance::PAUSED))
 			{
-				float volume[2];
+				//float volume[2];
 
 				mVoice[i]->mActiveFader = 0;
 
@@ -1820,7 +1820,7 @@ namespace SoLoud
 					setVoiceRelativePlaySpeed(i, speed);
 				}
 
-				volume[0] = mVoice[i]->mOverallVolume;
+				//volume[0] = mVoice[i]->mOverallVolume;
 				if (mVoice[i]->mVolumeFader.mActive > 0)
 				{
 					mVoice[i]->mSetVolume = mVoice[i]->mVolumeFader.get(mVoice[i]->mStreamTime);
@@ -1828,7 +1828,7 @@ namespace SoLoud
 					updateVoiceVolume(i);
 					mActiveVoiceDirty = true;
 				}
-				volume[1] = mVoice[i]->mOverallVolume;
+				//volume[1] = mVoice[i]->mOverallVolume;
 
 				if (mVoice[i]->mPanFader.mActive > 0)
 				{
@@ -2002,4 +2002,4 @@ namespace SoLoud
 		}
 	}
 
-};
+}

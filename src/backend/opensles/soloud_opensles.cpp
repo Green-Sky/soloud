@@ -31,7 +31,7 @@ freely, subject to the following restrictions:
 #if !defined(WITH_OPENSLES)
 namespace SoLoud
 {
-	result opensles_init(SoLoud::Soloud *aSoloud, unsigned int aFlags, unsigned int aSamplerate, unsigned int aBuffer)
+	result opensles_init(SoLoud::Soloud * /*aSoloud*/, unsigned int /*aFlags*/, unsigned int /*aSamplerate*/, unsigned int /*aBuffer*/)
 	{
 		return NOT_IMPLEMENTED;
 	}
@@ -297,5 +297,6 @@ namespace SoLoud
 		aSoloud->mBackendString = "OpenSL ES";
 		return SO_NO_ERROR;
 	}	
-};
+}
 #endif
+

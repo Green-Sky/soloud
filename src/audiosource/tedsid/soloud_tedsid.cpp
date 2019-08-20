@@ -253,4 +253,5 @@ namespace SoLoud
 		return new TedSidInstance(this);
 	}
 
-};
+}
+

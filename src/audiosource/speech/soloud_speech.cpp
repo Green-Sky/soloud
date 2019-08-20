@@ -145,4 +145,5 @@ namespace SoLoud
 	{
 		return new SpeechInstance(this);
 	}	
-};
+}
+

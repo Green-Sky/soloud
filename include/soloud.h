@@ -104,7 +104,7 @@ namespace SoLoud
 	typedef unsigned int result;
 	typedef unsigned int handle;
 	typedef double time;
-};
+}
 
 namespace SoLoud
 {
@@ -136,7 +136,7 @@ namespace SoLoud
 		// ctor
 		TinyAlignedFloatBuffer();
 	};
-};
+}
 
 #include "soloud_filter.h"
 #include "soloud_fader.h"
@@ -541,6 +541,6 @@ namespace SoLoud
 		// Unlock audio thread mutex.
 		void unlockAudioMutex();
 	};
-};
+}
 
 #endif

@@ -473,4 +473,5 @@ namespace SoLoud
 		return new MonotoneInstance(this);
 	}
 
-};
+}
+

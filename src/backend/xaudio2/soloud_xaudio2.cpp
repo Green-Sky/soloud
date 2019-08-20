@@ -29,11 +29,11 @@ freely, subject to the following restrictions:
 
 namespace SoLoud
 {
-	result xaudio2_init(Soloud *aSoloud, unsigned int aFlags, unsigned int aSamplerate, unsigned int aBuffer)
+	result xaudio2_init(Soloud * /*aSoloud*/, unsigned int /*aFlags*/, unsigned int /*aSamplerate*/, unsigned int /*aBuffer*/)
 	{
 		return NOT_IMPLEMENTED;
 	}
-};
+}
 
 #else
 
@@ -242,6 +242,7 @@ namespace SoLoud
         aSoloud->mBackendString = "XAudio2";
         return 0;
     }
-};
+}
 
 #endif
+
